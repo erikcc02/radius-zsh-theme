@@ -13,7 +13,7 @@ function prompt_char {
   echo "$"
 }
 
-function box_name {
+function host_name {
   if [[ -z "${DESK_NAME}" ]]; then
     echo "$HOST"
   else
@@ -25,7 +25,7 @@ local git_info='$(git_prompt_info)'
 local virtualenv_info='$(virtualenv_prompt_info)'
 local prompt_char='$(prompt_char)'
 
-PROMPT="╭─${FG[165]}%n ${FG[242]}at ${FG[033]}$(box_name) ${FG[242]}in %B${FG[226]}%~%b${git_info}${virtualenv_info}
+PROMPT="╭─${FG[165]}%n ${FG[242]}at ${FG[033]}$(host_name) ${FG[242]}in %B${FG[226]}%~%b${git_info}${virtualenv_info}
 ╰─${prompt_char}%{$reset_color%} "
 
 ZSH_THEME_GIT_PROMPT_PREFIX=" ${FG[242]}on%{$reset_color%} ${FG[255]}"
