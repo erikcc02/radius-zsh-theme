@@ -5,6 +5,8 @@ Theme for ZSH inspired by 'fino'
 * Supports git
 * Supports desk
 
+![alt text](img/theme.png "Radius Theme")
+
 ## Installation
 
 Download the repository in your custom themes:
