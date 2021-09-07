@@ -1,7 +1,6 @@
 # radius.zsh-theme
 
 # Use with a dark background and 256-color terminal!
-# Meant for people with rbenv and git. Tested only on OS X 10.7.
 # basead in 'fino' zsh theme
 
 function virtualenv_prompt_info {
@@ -17,7 +16,7 @@ function host_name {
   if [[ -z "${DESK_NAME}" ]]; then
     echo "$HOST"
   else
-    echo "⚀ ${DESK_NAME}"
+    echo "⚟ ${DESK_NAME}"
   fi
 }
 
