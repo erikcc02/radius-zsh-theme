@@ -16,7 +16,7 @@ function host_name {
   if [[ -z "${DESK_NAME}" ]]; then
     echo "$HOST"
   else
-    echo "⚟ ${DESK_NAME}"
+    echo "☶ ${DESK_NAME}"
   fi
 }
 
