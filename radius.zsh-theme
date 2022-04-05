@@ -31,5 +31,5 @@ local git_info='$(git_prompt_info)'
 local git_status='$(git_prompt_status)'
 local prompt_char='$(prompt_char)'
 
-PROMPT="╭─${FG[147]}%n ${FG[242]}at ${FG[033]}$(host_name) ${FG[242]}in %B${FG[154]}%~%b${git_info}${git_status}%{$reset_color%}
-╰─${prompt_char}%{$reset_color%} "
+PROMPT="${FG[242]}╭─${FG[147]}%n ${FG[242]}at ${FG[033]}$(host_name) ${FG[242]}in %B${FG[154]}%~%b${git_info}${git_status}%{$reset_color%}
+${FG[242]}╰─${prompt_char}${FG[250]} "
