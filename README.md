@@ -7,6 +7,8 @@ Theme for ZSH inspired by 'fino'
 
 ![alt text](img/theme.png "Radius Theme")
 
+Listed in [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins)
+
 ## Installation
 
 Download the repository in your custom themes:
